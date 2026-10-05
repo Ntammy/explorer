@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "kumbh sans" sans-serif;
+}
+
+.container1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    border: 90px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px;
+    background-color: hsl(185, 75%, 39%);
+}
+
+
+
+/* 1. Main outer wrapper handles borders, rounded corners, and clipping */
+.card {
+  width: 350px;             /* Or whatever fixed width you prefer */
+  background-color: #fff;
+  border-radius: 15px;      /* Curves top AND bottom nicely */
+  border: 1px solid #ccc;  /* If you want that thick outer border around the WHOLE card */
+  overflow: hidden;        /* Automatically curves the header image to match the top corners */
+  border: none;
+}
+
+/* 2. Header spans 100% width cleanly with no extra border/margin */
+.card-header {
+  width: 100%;
+  height: 140px;
+  background-image: url('./images/bg-pattern-card.svg');
+  background-size: cover;
+  /* Remove any border, margin, or border-radius here! */
+}
+
+/* 3. Body also spans 100% width cleanly */
+.card-body {
+    
+  width: 100%;
+  /* Style your profile avatar, text, and stats inside */
+}
+
+
+.circle-img {
+    width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 130px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  border: 5px solid #ddd;
+  border-color: #ddd;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username {
+    padding-top: 10px;
+    font-weight: 200;
+}
+
+.user-age {
+    color: grey;
+}
+
+.location {
+    padding-bottom: 24px;
+    padding-top: 10px;
+    color: grey;
+}
+
+.sub-text1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.sb0 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sb1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sb2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 600;
+}
